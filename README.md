@@ -11,7 +11,7 @@ You can install this plugin via the command-line or the WordPress admin panel.
 3. Activate the plugin via [wp-cli](http://wp-cli.org/commands/plugin/activate/).
 
 ```sh
-wp plugin activate wpg-config
+wp plugin activate wpg-disallow-indexing
 ```
 
 ### via WordPress Admin Panel
