@@ -9,5 +9,5 @@ Author URI:   https://github.com/wp-globalis-tools/wpg-disallow-indexing
 */
 
 if (WP_ENV !== 'production' && !is_admin()) {
-    add_action('pre_option_blog_public', '__return_zero');
+  add_filter('pre_option_blog_public', '__return_zero');
 }
