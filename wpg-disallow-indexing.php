@@ -8,6 +8,6 @@ Author:       Pierre Dargham, GLOBALIS media system
 Author URI:   https://github.com/wp-globalis-tools/wpg-disallow-indexing
 */
 
-if (WP_ENV !== 'production' && !is_admin()) {
+if (WP_ENV !== 'production') {
   add_filter('pre_option_blog_public', '__return_zero');
 }
