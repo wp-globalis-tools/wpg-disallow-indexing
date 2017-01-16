@@ -1,0 +1,11 @@
+{
+    "name": "globalis/wpg-disallow-indexing",
+    "type": "wordpress-muplugin",
+    "homepage": "https://github.com/wp-globalis-tools/wpg-disallow-indexing",
+		"authors": [
+			{
+				"name": "Pierre Dargham",
+				"homepage": "https://github.com/pierre-dargham/"
+			}
+		]
+}
