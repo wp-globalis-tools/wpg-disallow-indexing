@@ -2,8 +2,8 @@
 /*
 Plugin Name:  Disallow Indexing
 Plugin URI:   https://github.com/wp-globalis-tools/wpg-disallow-indexing
-Description:  Disallow indexing of your site on non-production environments.
-Version:      1.0.0
+Description:  Disallow indexing of your site on non-production environments
+Version:      0.3.0
 Author:       Pierre Dargham, GLOBALIS media system
 Author URI:   https://github.com/wp-globalis-tools/wpg-disallow-indexing
 */
