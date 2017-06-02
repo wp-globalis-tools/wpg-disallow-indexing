@@ -1,16 +1,26 @@
 {
-    "name": "globalis/wpg-disallow-indexing",
-    "description": "Disallow indexing of your site on non-production environments",
-    "type": "wordpress-muplugin",
-    "homepage": "https://github.com/wp-globalis-tools/wpg-disallow-indexing",
-		"authors": [
-			{
-				"name": "Pierre Dargham",
-				"homepage": "https://github.com/pierre-dargham/"
-			},
-			{
-				"name": "GLOBALIS media systems",
-				"homepage": "https://www.globalis-ms.com/"
-			}
-		]
+    "name":"globalis/wpg-disallow-indexing",
+    "type":"wordpress-muplugin",
+    "license":"GPL-2.0",
+    "description":"Disallow indexing of your site on non-production environments",
+    "homepage":"https://github.com/wp-globalis-tools/wpg-disallow-indexing",
+    "authors":[
+        {
+            "name":"Pierre Dargham",
+            "homepage":"https://github.com/pierre-dargham/"
+        },
+        {
+            "name":"GLOBALIS media systems",
+            "homepage":"https://www.globalis-ms.com/"
+        }
+   ],
+   "keywords":[
+        "wordpress"
+   ],
+   "support":{
+        "issues":"https://github.com/wp-globalis-tools/wpg-disallow-indexing/issues"
+   },
+   "require":{
+        "php":">=5.5"
+   }
 }
