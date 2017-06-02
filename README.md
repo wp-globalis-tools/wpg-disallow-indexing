@@ -2,7 +2,7 @@
 
 ## Installation
 
-Add `wpg-disallow-indexing` to your `mu-plugins` directory
+Add `wpg-disallow-indexing.php` to your `mu-plugins` directory
 
 ## Configuration
 
