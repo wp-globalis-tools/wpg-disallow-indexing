@@ -15,13 +15,14 @@
 namespace Globalis\WP\DisallowIndexing;
 
 if (WP_ENV !== 'production') {
-	define('WPG_NOINDEX', true);
-	add_filter('pre_option_blog_public', '__return_zero');
-	add_filter('robots_txt', __NAMESPACE__ . '\\robots_txt', 99, 2);
+    define('WPG_NOINDEX', true);
+    add_filter('pre_option_blog_public', '__return_zero');
+    add_filter('robots_txt', __NAMESPACE__ . '\\robots_txt', 99, 2);
 }
 
-function robots_txt($output, $public) {
-	$output = "User-agent: *\r\n";
-	$output .= "Disallow: /\r\n";
-	return $output;
+function robots_txt($output, $public)
+{
+    $output = "User-agent: *\r\n";
+    $output .= "Disallow: /\r\n";
+    return $output;
 }
